@@ -1,7 +1,7 @@
 ### time.time() -> return seconds passed from LINUX epoch
-`sec = time.time()
+`sec = time.time()`
 
-print(f'seconds passed by from epoch are: {sec}s')
+`print(f'seconds passed by from epoch are: {sec}s')
 `
 
 ### time.ctime(<seconds>) -> return local time
