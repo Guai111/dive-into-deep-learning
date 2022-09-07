@@ -5,9 +5,9 @@
 `
 
 ### time.ctime(<seconds>) -> return local time
-`curtime = time.ctime(sec)
+`curtime = time.ctime(sec)`
   
-print(f'Now is {curtime}')
+`print(f'Now is {curtime}')
 `
   
 ### time.struct_time -> object
@@ -17,23 +17,23 @@ print(f'Now is {curtime}')
 `
   
 ### time.localtime()
-`ltime = time.localtime()
+`ltime = time.localtime()`
   
-print(f'Year is {ltime.tm_year}, month is {ltime.tm_mon}, date is {ltime.tm_mday}')
+`print(f'Year is {ltime.tm_year}, month is {ltime.tm_mon}, date is {ltime.tm_mday}')
 `
   
 ### time.gmtime(<seconds>) -> returns struct_time
-`stime = time.gmtime(166666660)
+`stime = time.gmtime(166666660)`
   
-print(f'Year is {stime.tm_year}, month is {stime.tm_mon}, date is {stime.tm_mday}')
+`print(f'Year is {stime.tm_year}, month is {stime.tm_mon}, date is {stime.tm_mday}')
 `
   
 ### time.sleep(<seconds>) -> sleep for <second> time
-`print('We are at here!')
+`print('We are at here!')`
   
-time.sleep(4)
+`time.sleep(4)`
   
-print("After 4 sec!")
+`print("After 4 sec!")
 `
 ### Summarize 
 Now you know:
